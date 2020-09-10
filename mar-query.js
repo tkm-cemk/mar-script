@@ -1,4 +1,3 @@
-<script type="text/javascript">
 function displayTime() {
     var date = new Date();
     var hours = date.getHours();
@@ -11,4 +10,4 @@ function displayTime() {
     var strTime = date + ' ' + hours + ':' + minutes + ' ' + ampm;
     return strTime;
 }
-</script>
+
