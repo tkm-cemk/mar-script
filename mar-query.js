@@ -11,3 +11,10 @@ function displayTime() {
     return strTime;
 }
 
+$(document).ready(displayTime(){
+
+	//=== do some code stuff...
+var eTime = document.getElementById('showtime');
+eTime.innerHTML = 'Time: ' + displayTime();
+	//===finally, bind my events...
+});
